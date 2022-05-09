@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E8829F8282966E9001B00A2 /* SwiftUIDemoForIOS15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemoForIOS15.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8829F8282966E9001B00A2 /* SwiftUI-DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-DesignCode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8829FB282966E9001B00A2 /* SwiftUIDemoForIOS15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoForIOS15App.swift; sourceTree = "<group>"; };
 		5E8829FD282966E9001B00A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E8829FF282966EA001B00A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		5E8829F9282966E9001B00A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E8829F8282966E9001B00A2 /* SwiftUIDemoForIOS15.app */,
+				5E8829F8282966E9001B00A2 /* SwiftUI-DesignCode.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = SwiftUIDemoForIOS15;
 			productName = SwiftUIDemoForIOS15;
-			productReference = 5E8829F8282966E9001B00A2 /* SwiftUIDemoForIOS15.app */;
+			productReference = 5E8829F8282966E9001B00A2 /* SwiftUI-DesignCode.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -281,7 +281,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.songhao.SwiftUIDemoForIOS15;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "SwiftUI-DesignCode";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,7 +310,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.songhao.SwiftUIDemoForIOS15;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "SwiftUI-DesignCode";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
