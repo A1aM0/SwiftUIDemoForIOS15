@@ -19,6 +19,7 @@
 		5E8829FD282966E9001B00A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E8829FF282966EA001B00A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E882A02282966EA001B00A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EA818E0282ACF0400F4B4E7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		5E8829EF282966E9001B00A2 = {
 			isa = PBXGroup;
 			children = (
+				5EA818E0282ACF0400F4B4E7 /* README.md */,
 				5E8829FA282966E9001B00A2 /* SwiftUIDemoForIOS15 */,
 				5E8829F9282966E9001B00A2 /* Products */,
 			);
