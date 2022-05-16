@@ -12,6 +12,7 @@
 		5E882A00282966EA001B00A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8829FF282966EA001B00A2 /* Assets.xcassets */; };
 		5E882A03282966EA001B00A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E882A02282966EA001B00A2 /* Preview Assets.xcassets */; };
 		5EAB96FD2832A49600C82FD1 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAB96FC2832A49600C82FD1 /* Styles.swift */; };
+		5EAB96FF2832AB5B00C82FD1 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAB96FE2832AB5B00C82FD1 /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5E882A02282966EA001B00A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5EA818E0282ACF0400F4B4E7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5EAB96FC2832A49600C82FD1 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		5EAB96FE2832AB5B00C82FD1 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				5E8829FB282966E9001B00A2 /* SwiftUIDemoForIOS15App.swift */,
 				5E8829FD282966E9001B00A2 /* ContentView.swift */,
 				5EAB96FC2832A49600C82FD1 /* Styles.swift */,
+				5EAB96FE2832AB5B00C82FD1 /* AccountView.swift */,
 				5E8829FF282966EA001B00A2 /* Assets.xcassets */,
 				5E882A01282966EA001B00A2 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EAB96FF2832AB5B00C82FD1 /* AccountView.swift in Sources */,
 				5EAB96FD2832A49600C82FD1 /* Styles.swift in Sources */,
 				5E8829FE282966E9001B00A2 /* ContentView.swift in Sources */,
 				5E8829FC282966E9001B00A2 /* SwiftUIDemoForIOS15App.swift in Sources */,
