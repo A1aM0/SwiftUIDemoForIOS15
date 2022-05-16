@@ -40,11 +40,8 @@ struct ContentView: View {
 //        .cornerRadius(30)
         .mask(RoundedRectangle(cornerRadius: 30, style: .continuous))
         .shadow(color: Color("Shadow").opacity(0.3), radius: 10, x: 0, y: 10)
-        .overlay(
-            RoundedRectangle(cornerRadius: 30, style: .continuous)
-                .stroke(.linearGradient(colors: [.white.opacity(0.3), .black.opacity(0.1)], startPoint: .top, endPoint: .bottom))
-                .blendMode(.overlay)
-        )
+//        .modifier(StrokeStyle())
+        .strokeStyle(cornerRadius: 16)
         .padding(.horizontal, 20)
         .background(
             Image("Blob 1")
@@ -62,6 +59,10 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            ContentView()
+                .preferredColorScheme(.dark)
+        }
     }
 }
